@@ -1,7 +1,7 @@
 ## Script to disable any Service ##
 ## D.Wilson October 2020          ##
 
-$ServiceName = "ServiceName"
+$ServiceName = "Killer Network Service"
 $Service = Get-Service -Name $ServiceName
 
 ## Checks if the service is running and disables it if it is ##
